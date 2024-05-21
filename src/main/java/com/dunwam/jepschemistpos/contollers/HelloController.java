@@ -1,4 +1,4 @@
-package com.dunwam.jepschemistpos;
+package com.dunwam.jepschemistpos.contollers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
