@@ -6,6 +6,7 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 public class LoginController {
 
@@ -36,4 +37,8 @@ public class LoginController {
     @FXML
     private PasswordField PasswordTextField;
 
+    public void cancelOnAction(){
+        Stage window = (Stage) CancelButton.getScene().getWindow();
+                            window.close();
+    }
 }

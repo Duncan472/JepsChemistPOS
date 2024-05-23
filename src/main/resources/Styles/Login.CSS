@@ -2,7 +2,7 @@
 -fx-background-image:url(../images/Pharmacy4.jpeg);
 }
 #AnchorPaneLeft{
--fx-background-color:#4ccfd9);
+-fx-background-color:#4ccfd9;
 -fx-background-radius:20px;
 -fx-border-radius:20px;
 -fx-border-color:#ffffff;
@@ -11,7 +11,7 @@
 }
 
 #AnchorPaneRight{
--fx-background-color: #4CCFD9);
+-fx-background-color: #4CCFD9;
 -fx-background-radius:20px;
 -fx-border-radius:20px;
 -fx-border-color:#ffffff;
