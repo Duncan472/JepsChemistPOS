@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="674.0" stylesheets="@../Styles/Login.CSS" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.contollers.LoginController" />
+<AnchorPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="702.0" stylesheets="@../Styles/Login.CSS" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.contollers.LoginController">
+   <AnchorPane fx:id="AnchorPaneRight" layoutX="361.0" layoutY="68.0" prefHeight="404.0" prefWidth="263.0" style="-fx-background-color: #4CCFD9;">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="83.0" prefHeight="41.0" prefWidth="234.0" text="Login" textFill="#123dde">
+         <font>
+            <Font name="Segoe Script Bold" size="31.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="67.0" fitWidth="59.0" layoutX="90.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../images/Lock.jpeg" />
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="141.0" prefHeight="27.0" prefWidth="250.0" textFill="#e51c0b" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
+      <Label alignment="CENTER" layoutX="4.0" layoutY="177.0" prefHeight="25.0" prefWidth="50.0" text="Email" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="221.0" prefHeight="27.0" prefWidth="75.0" text="Password" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="EmailTextField" layoutX="80.0" layoutY="177.0" prefHeight="25.0" prefWidth="175.0" promptText="dunwam@gmail.com" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="PasswordTextField" layoutX="84.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" promptText="please input password" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="CancelButton" layoutX="86.0" layoutY="264.0" mnemonicParsing="false" prefHeight="12.0" text="Cancel" />
+      <Button fx:id="LoginButton" layoutX="164.0" layoutY="264.0" mnemonicParsing="false" prefHeight="12.0" text="Login" />
+      <Hyperlink fx:id="ForgotPasswordHyperlink" layoutX="86.0" layoutY="318.0" prefHeight="23.0" prefWidth="175.0" text="Forgot Passwprd?" textFill="#1246d7" underline="true" />
+   </AnchorPane>
+   <AnchorPane fx:id="AnchorPaneLeft" layoutX="56.0" layoutY="27.0" prefHeight="404.0" prefWidth="204.0" style="-fx-background-color: #4CCFD9;">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" prefHeight="133.0" prefWidth="234.0" rotate="-17.0" text="JEPS" textFill="#1506e4" underline="true">
+         <font>
+            <Font name="Leelawadee UI Bold" size="50.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <AnchorPane fx:id="AnchorPaneImage" layoutX="7.0" layoutY="173.0" prefHeight="217.0" prefWidth="265.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="88.0" prefHeight="106.0" prefWidth="199.0" text="CHEMIST" textFill="#1506e4">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </AnchorPane>
+</AnchorPane>
