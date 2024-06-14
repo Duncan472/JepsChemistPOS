@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="702.0" stylesheets="@../Styles/Login.CSS" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.contollers.LoginController">
-   <AnchorPane fx:id="AnchorPaneRight" layoutX="363.0" layoutY="76.0" prefHeight="404.0" prefWidth="263.0" style="-fx-background-color: #4CCFD9;">
+   <AnchorPane fx:id="AnchorPaneRight" layoutX="363.0" layoutY="71.0" prefHeight="404.0" prefWidth="263.0" style="-fx-background-color: #4CCFD9;">
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="83.0" prefHeight="41.0" prefWidth="234.0" text="Login" textFill="#123dde">
          <font>
             <Font name="Segoe Script Bold" size="31.0" />
@@ -40,7 +40,7 @@
       </TextField>
       <PasswordField fx:id="PasswordTextField" layoutX="84.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" promptText="please input password" AnchorPane.rightAnchor="0.0" />
       <Button fx:id="CancelButton" layoutX="86.0" layoutY="264.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="12.0" text="Cancel" />
-      <Button fx:id="LoginButton" layoutX="164.0" layoutY="264.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="12.0" text="Login" />
+      <Button fx:id="LoginButton" layoutX="154.0" layoutY="262.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="27.0" prefWidth="69.0" text="Login" />
       <Hyperlink fx:id="ForgotPasswordHyperlink" layoutX="86.0" layoutY="318.0" prefHeight="23.0" prefWidth="175.0" text="Forgot Passwprd?" textFill="#1246d7" underline="true" />
       <Hyperlink fx:id="Help" layoutX="194.0" layoutY="318.0" text="Help" />
    </AnchorPane>

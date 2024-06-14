@@ -1,6 +1,7 @@
 module com.dunwam.jepschemistpos {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens com.dunwam.jepschemistpos to javafx.fxml;
