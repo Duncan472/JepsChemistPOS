@@ -22,7 +22,7 @@
       <ImageView fitHeight="67.0" fitWidth="59.0" layoutX="90.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <Image url="@../images/Lock.jpeg" />
       </ImageView>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="141.0" prefHeight="27.0" prefWidth="250.0" textFill="#e51c0b" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
+      <Label fx:id="ErrorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="141.0" prefHeight="27.0" prefWidth="250.0" textFill="#e51c0b" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
       <Label alignment="CENTER" layoutX="4.0" layoutY="177.0" prefHeight="25.0" prefWidth="50.0" text="Email" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
          <font>
             <Font size="16.0" />
@@ -40,8 +40,9 @@
       </TextField>
       <PasswordField fx:id="PasswordTextField" layoutX="84.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" promptText="please input password" AnchorPane.rightAnchor="0.0" />
       <Button fx:id="CancelButton" layoutX="86.0" layoutY="264.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="12.0" text="Cancel" />
-      <Button fx:id="LoginButton" layoutX="164.0" layoutY="264.0" mnemonicParsing="false" prefHeight="12.0" text="Login" />
+      <Button fx:id="LoginButton" layoutX="164.0" layoutY="264.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="12.0" text="Login" />
       <Hyperlink fx:id="ForgotPasswordHyperlink" layoutX="86.0" layoutY="318.0" prefHeight="23.0" prefWidth="175.0" text="Forgot Passwprd?" textFill="#1246d7" underline="true" />
+      <Hyperlink fx:id="Help" layoutX="194.0" layoutY="318.0" text="Help" />
    </AnchorPane>
    <AnchorPane fx:id="AnchorPaneLeft" layoutX="56.0" layoutY="27.0" prefHeight="404.0" prefWidth="204.0" style="-fx-background-color: #4CCFD9;">
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" prefHeight="133.0" prefWidth="234.0" rotate="-17.0" text="JEPS" textFill="#1506e4" underline="true">
