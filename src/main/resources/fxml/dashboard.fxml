@@ -13,65 +13,69 @@
 
 <BorderPane maxHeight="768.0" maxWidth="1366.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <left>
-      <VBox prefHeight="532.0" prefWidth="194.0" BorderPane.alignment="CENTER">
+      <VBox fx:id="sidebar" prefHeight="532.0" prefWidth="194.0" BorderPane.alignment="CENTER">
          <children>
             <Label prefHeight="128.0" prefWidth="221.0" rotate="-18.9" text="Jeps Chemist">
                <font>
                   <Font name="System Bold Italic" size="14.0" />
                </font>
+               <graphic>
+                  <ImageView fx:id="logoImageView" fitHeight="96.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" rotate="18.4" />
+               </graphic>
             </Label>
             <HBox prefHeight="75.0" prefWidth="194.0" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="164.0" text="Home">
+            <Button fx:id="homeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="164.0" styleClass="side-bar-button" text="Home">
                <graphic>
                   <ImageView fitHeight="27.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="166.0" text="Sales">
+            <Button fx:id="salesButton" mnemonicParsing="false" prefHeight="36.0" prefWidth="166.0" styleClass="side-bar-button" text="Sales">
                <graphic>
                   <ImageView fitHeight="28.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="168.0" text="Stock">
+            <Button fx:id="stockButton" mnemonicParsing="false" prefHeight="37.0" prefWidth="168.0" styleClass="side-bar-button" text="Stock">
                <graphic>
                   <ImageView fitHeight="29.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Services">
+            <Button fx:id="servicesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" styleClass="side-bar-button" text="Services">
                <graphic>
                   <ImageView fitHeight="31.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Notifications">
+            <Button fx:id="notificationsButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" styleClass="side-bar-button" text="Notifications">
                <graphic>
                   <ImageView fitHeight="26.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" text="To Do">
+            <Button fx:id="todoButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" styleClass="side-bar-button" text="To Do">
                <graphic>
-                  <ImageView fitHeight="38.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="26.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" text="Reports">
+            <Button fx:id="reportsButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" styleClass="side-bar-button" text="Reports">
                <graphic>
                   <ImageView fitHeight="27.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" text="Help">
+            <Button fx:id="helpButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" styleClass="side-bar-button" text="Help">
                <graphic>
                   <ImageView fitHeight="22.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="164.0" text="LogOut">
+            <Button fx:id="logoutButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="164.0" styleClass="side-bar-button" text="LogOut">
                <graphic>
                   <ImageView fitHeight="20.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
-            <HBox prefHeight="100.0" prefWidth="200.0">
+            <HBox prefHeight="100.0" prefWidth="40.0">
                <children>
-                  <VBox prefHeight="100.0" prefWidth="194.0">
+                  <ImageView fitHeight="42.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
+                  <VBox prefHeight="77.0" prefWidth="159.0">
                      <children>
-                        <Label text="Username " />
                         <Label text="fduncan472@gmail.com" />
+                        <Label text="Username " />
                      </children>
                   </VBox>
                </children>
