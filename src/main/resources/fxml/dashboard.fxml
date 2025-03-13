@@ -53,17 +53,17 @@
                <ImageView fx:id="todoIcon" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
             </graphic>
          </Button>
-         <Button fx:id="reportsButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" styleClass="side-bar-button" text="Reports">
+         <Button fx:id="reportsButton" mnemonicParsing="false" prefHeight="48.0" prefWidth="172.0" styleClass="side-bar-button" text="Reports">
             <graphic>
                <ImageView fx:id="reportsIcon" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
             </graphic>
          </Button>
-         <Button fx:id="helpButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" styleClass="side-bar-button" text="Help">
+         <Button fx:id="helpButton" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" styleClass="side-bar-button" text="Help">
             <graphic>
                <ImageView fx:id="helpIcon" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
             </graphic>
          </Button>
-         <Button fx:id="logoutButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="164.0" styleClass="side-bar-button" text="LogOut">
+         <Button fx:id="logoutButton" mnemonicParsing="false" prefHeight="48.0" prefWidth="172.0" styleClass="side-bar-button" text="LogOut">
             <graphic>
                <ImageView fx:id="logoutIcon" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
             </graphic>
@@ -73,7 +73,7 @@
                <ImageView fx:id="profilePic" fitHeight="42.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
                <VBox prefHeight="77.0" prefWidth="159.0">
                   <children>
-                     <Label text="fduncan472@gmail.com" />
+                     <Label text="fduncan472@gmail.com" textFill="#ae2121" />
                      <Label text="Username " />
                   </children>
                </VBox>
