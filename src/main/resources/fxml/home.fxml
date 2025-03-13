@@ -10,7 +10,6 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="670.0" prefWidth="1334.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.controllers.HomeController">
    <children>
       <AnchorPane layoutX="25.0" layoutY="40.0" prefHeight="235.0" prefWidth="360.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
@@ -22,12 +21,12 @@
             <Label layoutX="14.0" layoutY="154.0" text="Total M-pesa (stock)" />
             <Label layoutX="22.0" layoutY="179.0" text="Current Cash" />
             <Label graphicTextGap="3.0" layoutX="17.0" layoutY="204.0" text="Current Mpesa" />
-            <Label layoutX="151.0" layoutY="54.0" text="0.00" />
-            <Label layoutX="151.0" layoutY="93.0" text="0.00" />
-            <Label layoutX="151.0" layoutY="124.0" text="0.00" />
-            <Label layoutX="154.0" layoutY="154.0" text="0.00" />
-            <Label layoutX="154.0" layoutY="179.0" text="0.00" />
-            <Label layoutX="154.0" layoutY="204.0" text="0.00" />
+            <Label fx:id="totalStockAddedLabel" layoutX="151.0" layoutY="54.0" text="0.00" />
+            <Label fx:id="currentStockLabel" layoutX="151.0" layoutY="93.0" text="0.00" />
+            <Label fx:id="totalCashLabel" layoutX="151.0" layoutY="124.0" text="0.00" />
+            <Label fx:id="totalMpesaLabel" layoutX="154.0" layoutY="154.0" text="0.00" />
+            <Label fx:id="currentCashLabel" layoutX="154.0" layoutY="179.0" text="0.00" />
+            <Label fx:id="currentMpesaLabel" layoutX="154.0" layoutY="204.0" text="0.00" />
             <Label layoutX="257.0" layoutY="54.0" text="Ksh" />
             <Label layoutX="253.0" layoutY="93.0" text="Ksh" />
             <Label layoutX="253.0" layoutY="124.0" text="Ksh" />
@@ -46,36 +45,32 @@
             <Label layoutX="22.0" layoutY="84.0" text="Total Revenue                             :" />
             <Label layoutX="25.0" layoutY="118.0" text="Total Cash  (Services)                 :" />
             <Label layoutX="25.0" layoutY="163.0" text="Total Mpesa  (Services)         :" />
-            <Label layoutX="232.0" layoutY="53.0" text="0.00" />
-            <Label layoutX="232.0" layoutY="84.0" text="0.00" />
-            <Label layoutX="232.0" layoutY="118.0" text="0.00" />
-            <Label layoutX="232.0" layoutY="163.0" text="0.00" />
+            <Label fx:id="numberOfServicesLabel" layoutX="232.0" layoutY="53.0" text="0" />
+            <Label fx:id="totalRevenueLabel" layoutX="232.0" layoutY="84.0" text="0.00" />
+            <Label fx:id="servicesTotalCashLabel" layoutX="232.0" layoutY="118.0" text="0.00" />
+            <Label fx:id="servicesTotalMpesa" layoutX="232.0" layoutY="163.0" text="0.00" />
          </children>
       </AnchorPane>
-       <AnchorPane layoutX="939.0" layoutY="6.0" prefHeight="235.0" prefWidth="381.0" AnchorPane.rightAnchor="14.0"
-                   AnchorPane.topAnchor="6.0">
-           <Button layoutX="127.0" layoutY="209.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="210.0"
-                   text="Withdraw"/>
-           <TextArea layoutX="119.0" layoutY="126.0" prefHeight="80.0" prefWidth="226.0"/>
-           <Label layoutX="41.0" layoutY="126.0" text="Description"/>
-           <Label layoutX="57.0" layoutY="87.0" text="Mpesa"/>
-           <Label layoutX="58.0" layoutY="58.0" text="Label"/>
-           <Spinner layoutX="157.0" layoutY="54.0"/>
-           <Spinner layoutX="157.0" layoutY="83.0"/>
-           <Label layoutX="143.0" layoutY="6.0" text="WITHDRAW FROM BUSINESS"/>
-           <Label layoutX="218.0" layoutY="37.0" text="Amount"/>
-           <Label layoutX="306.0" layoutY="58.0" text="Ksh"/>
-           <Label layoutX="311.0" layoutY="87.0" text="Ksh"/>
+       <AnchorPane layoutX="939.0" layoutY="6.0" prefHeight="235.0" prefWidth="381.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="6.0">
+           <Button fx:id="withdrawButton" layoutX="127.0" layoutY="209.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="210.0" text="Withdraw" />
+           <TextArea fx:id="descriptionTextArea" layoutX="119.0" layoutY="126.0" prefHeight="80.0" prefWidth="226.0" />
+           <Label layoutX="41.0" layoutY="126.0" text="Description" />
+           <Label layoutX="57.0" layoutY="87.0" text="Mpesa" />
+           <Label layoutX="58.0" layoutY="58.0" text="Cash" />
+           <Spinner fx:id="cashSpinner" layoutX="157.0" layoutY="54.0" />
+           <Spinner fx:id="mpesaSpinner" layoutX="157.0" layoutY="83.0" />
+           <Label layoutX="143.0" layoutY="6.0" text="WITHDRAW FROM BUSINESS" />
+           <Label layoutX="218.0" layoutY="37.0" text="Amount" />
+           <Label layoutX="306.0" layoutY="58.0" text="Ksh" />
+           <Label layoutX="311.0" layoutY="87.0" text="Ksh" />
        </AnchorPane>
-       <AnchorPane layoutX="232.0" layoutY="353.0" prefHeight="380.0" prefWidth="700.0" AnchorPane.bottomAnchor="5.0"
-                   AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-           <LineChart layoutX="124.0" layoutY="-10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+       <AnchorPane layoutX="232.0" layoutY="353.0" prefHeight="380.0" prefWidth="700.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+           <LineChart fx:id="lineChart" layoutX="124.0" layoutY="-10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <xAxis>
-                   <CategoryAxis prefHeight="30.0" prefWidth="1256.0" side="BOTTOM"/>
+                   <CategoryAxis prefHeight="30.0" prefWidth="1256.0" side="BOTTOM" />
                </xAxis>
                <yAxis>
-                   <NumberAxis label="Sales Amount (Ksh)" prefHeight="320.0" prefWidth="61.0" side="LEFT"/>
+                   <NumberAxis label="Sales Amount (Ksh)" prefHeight="320.0" prefWidth="61.0" side="LEFT" />
                </yAxis>
            </LineChart>
        </AnchorPane>
