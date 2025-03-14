@@ -13,6 +13,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
 
 <AnchorPane prefHeight="642.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.controllers.StockController">
@@ -26,37 +27,38 @@
                         <TableView prefHeight="604.0" prefWidth="238.0" />
                      </content>
                   </ScrollPane>
-                  <Label layoutX="20.0" layoutY="14.0" text="Available Stock" />
-                  <HBox layoutX="101.0" layoutY="3.0" prefHeight="39.0" prefWidth="306.0" spacing="4.0" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="3.0">
+                  <Label layoutX="20.0" layoutY="14.0" text="Available Stock">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="129.0" layoutY="12.0" prefHeight="39.0" prefWidth="306.0" spacing="4.0" AnchorPane.leftAnchor="129.0" AnchorPane.rightAnchor="-10.0" AnchorPane.topAnchor="12.0">
                      <children>
-                        <TextField text="Type name to Search..." />
-                        <Button mnemonicParsing="false" prefHeight="11.0" prefWidth="107.0" text="Button">
-                           <graphic>
-                              <ImageView fitHeight="19.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" />
-                           </graphic>
-                        </Button>
+                        <TextField fx:id="searchTextfield" text="Type name to Search..." />
+                        <Button fx:id="iconSearch" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Button" />
+                        <ImageView fx:id="refreshIcon" fitHeight="27.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" />
                      </children>
                   </HBox>
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <Button layoutX="167.0" layoutY="14.0" mnemonicParsing="false" text="Recieve Stock" />
-                  <Button layoutX="166.0" layoutY="589.0" mnemonicParsing="false" text="Update" />
+                  <Button fx:id="addStockButton" layoutX="167.0" layoutY="14.0" mnemonicParsing="false" text="Recieve Stock" />
+                  <Button fx:id="saveButton" layoutX="166.0" layoutY="589.0" mnemonicParsing="false" text="Update" />
                   <Label layoutX="36.0" layoutY="378.0" text="Supplier Name" />
                   <Label layoutX="18.0" layoutY="185.0" text="Minimum Quantity of Stock" />
                   <Label layoutX="22.0" layoutY="113.0" text="Quantity (Total Number of Minimum Measure" />
                   <Label layoutX="36.0" layoutY="60.0" text="Name" />
                   <Label layoutX="11.0" layoutY="247.0" text="Buying Price per Minimum Quantity Measure]" />
-                  <ComboBox layoutX="130.0" layoutY="56.0" prefWidth="150.0" />
-                  <ComboBox layoutX="104.0" layoutY="395.0" prefWidth="150.0" />
-                  <Spinner layoutX="119.0" layoutY="146.0" />
-                  <Spinner layoutX="130.0" layoutY="214.0" />
-                  <Spinner layoutX="130.0" layoutY="273.0" />
+                  <ComboBox fx:id="nameComboBox" layoutX="130.0" layoutY="56.0" prefWidth="150.0" />
+                  <ComboBox fx:id="supplierComboBox" layoutX="104.0" layoutY="395.0" prefWidth="150.0" />
+                  <Spinner fx:id="quantitySpinner" layoutX="119.0" layoutY="146.0" />
+                  <Spinner fx:id="minQuantitySpinner" layoutX="130.0" layoutY="214.0" />
+                  <Spinner fx:id="buyingPriceSpinner" layoutX="130.0" layoutY="273.0" />
                   <Label layoutX="25.0" layoutY="312.0" text="Selling Price Per Minimum Quantity Measure" />
-                  <TextArea layoutX="30.0" layoutY="508.0" prefHeight="69.0" prefWidth="298.0" />
-                  <DatePicker layoutX="107.0" layoutY="454.0" />
-                  <Spinner layoutX="138.0" layoutY="342.0" />
+                  <TextArea fx:id="optionalDescription" layoutX="30.0" layoutY="508.0" prefHeight="69.0" prefWidth="298.0" />
+                  <DatePicker fx:id="expiryDatePicker" layoutX="107.0" layoutY="454.0" />
+                  <Spinner fx:id="sellingPriceSpinner" layoutX="138.0" layoutY="342.0" />
                   <Label layoutX="37.0" layoutY="432.0" text="Expiry Date " />
                   <Label layoutX="52.0" layoutY="491.0" text="Description(Optional)" />
                </children>
