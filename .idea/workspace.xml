@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c98ae4-1ae1-40d8-8c08-2b8302ac23e2" name="Changes" comment="" />
+    <list default="true" id="c2c98ae4-1ae1-40d8-8c08-2b8302ac23e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/signUp.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
