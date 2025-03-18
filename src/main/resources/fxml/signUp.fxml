@@ -15,13 +15,13 @@
             <Font name="System Bold Italic" size="23.0" />
          </font>
       </Label>
-      <Button layoutX="80.0" layoutY="111.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="298.0" text="Request Code from Developer" />
+      <Button fx:id="getCodeButton" layoutX="71.0" layoutY="111.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="323.0" text="Request Code from Developer" />
       <Label layoutX="155.0" layoutY="88.0" text="Click to request Code from DEveloper" textFill="#fcf8f8" />
-      <PasswordField layoutX="70.0" layoutY="379.0" prefHeight="42.0" prefWidth="323.0" promptText="Confirm Password" />
-      <PasswordField layoutX="73.0" layoutY="323.0" prefHeight="42.0" prefWidth="315.0" promptText="Enter Password" />
-      <TextField layoutX="71.0" layoutY="272.0" prefHeight="42.0" prefWidth="315.0" promptText="Enter Your Username" />
-      <TextField layoutX="71.0" layoutY="220.0" prefHeight="42.0" prefWidth="315.0" promptText="Enter Your Mail" />
-      <Button layoutX="63.0" layoutY="439.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="338.0" text="Create User" />
-      <PasswordField layoutX="71.0" layoutY="167.0" prefHeight="42.0" prefWidth="315.0" promptText="Enter Code From Developer" />
+      <PasswordField fx:id="confirmPassword" layoutX="73.0" layoutY="379.0" prefHeight="42.0" prefWidth="323.0" promptText="Confirm Password" />
+      <PasswordField fx:id="enterPassword" layoutX="73.0" layoutY="323.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Password" />
+      <TextField fx:id="adminUsername" layoutX="71.0" layoutY="272.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Your Username" />
+      <TextField fx:id="adminEmail" layoutX="71.0" layoutY="220.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Your Mail" />
+      <Button fx:id="confirmPassword" layoutX="66.0" layoutY="439.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="338.0" text="Create User" />
+      <PasswordField fx:id="codeTextField" layoutX="71.0" layoutY="167.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Code From Developer" />
    </children>
 </AnchorPane>
