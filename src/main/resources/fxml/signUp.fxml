@@ -11,25 +11,25 @@
 
 <AnchorPane prefHeight="562.0" prefWidth="510.0" style="-fx-background-color: #8D8D8D;" stylesheets="@../Styles/forgotPassword.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.controllers.SignUpController">
    <children>
-      <Label layoutX="47.0" layoutY="32.0" text="Create Admin" textFill="#fcf8f8">
+      <Label layoutX="67.0" layoutY="39.0" text="Create Admin" textFill="#fcf8f8">
          <font>
             <Font name="System Bold Italic" size="23.0" />
          </font>
       </Label>
-      <Button fx:id="getCodeButton" layoutX="92.0" layoutY="120.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="323.0" text="Request Code from Developer" />
-      <Label layoutX="109.0" layoutY="87.0" text="Click to request Code from Developer" textFill="#fcf8f8">
+      <Button fx:id="getCodeButton" layoutX="105.0" layoutY="147.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="323.0" text="Request Code from Developer" />
+      <Label layoutX="114.0" layoutY="120.0" text="Click to request Code from Developer" textFill="#fcf8f8">
          <font>
             <Font name="System Italic" size="18.0" />
          </font>
       </Label>
-      <PasswordField fx:id="confirmPassword" layoutX="92.0" layoutY="422.0" prefHeight="42.0" prefWidth="323.0" promptText="Confirm Password" />
-      <PasswordField fx:id="enterPassword" layoutX="92.0" layoutY="370.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Password" />
-      <TextField fx:id="adminUsername" layoutX="92.0" layoutY="317.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Your Username" />
-      <TextField fx:id="adminEmail" layoutX="92.0" layoutY="260.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Your Mail" />
-      <Button fx:id="savePassword" layoutX="55.0" layoutY="481.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="398.0" text="Create User" />
-      <PasswordField fx:id="codeTextField" layoutX="92.0" layoutY="204.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Code From Developer" />
-      <ToggleButton layoutX="404.0" layoutY="14.0" mnemonicParsing="false" text="Developer Mode" />
-      <Label fx:id="alertLabel" layoutY="66.0" prefHeight="34.0" prefWidth="516.0" />
-      <Label fx:id="codeAlert" layoutX="41.0" layoutY="170.0" prefHeight="34.0" prefWidth="398.0" />
+      <PasswordField fx:id="confirmPassword" layoutX="105.0" layoutY="425.0" prefHeight="42.0" prefWidth="323.0" promptText="Confirm Password" />
+      <PasswordField fx:id="enterPassword" layoutX="105.0" layoutY="375.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Password" />
+      <TextField fx:id="adminUsername" layoutX="105.0" layoutY="324.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Your Username" />
+      <TextField fx:id="adminEmail" layoutX="105.0" layoutY="273.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Your Mail" />
+      <Button fx:id="savePassword" layoutX="67.0" layoutY="481.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="398.0" text="Create User" />
+      <PasswordField fx:id="codeTextField" layoutX="105.0" layoutY="223.0" prefHeight="42.0" prefWidth="323.0" promptText="Enter Code From Developer" />
+      <ToggleButton layoutX="398.0" layoutY="27.0" mnemonicParsing="false" text="Developer Mode" />
+      <Label fx:id="alertLabel" layoutX="1.0" layoutY="86.0" prefHeight="34.0" prefWidth="516.0" />
+      <Label fx:id="codeAlert" layoutX="59.0" layoutY="198.0" prefHeight="25.0" prefWidth="398.0" />
    </children>
 </AnchorPane>
