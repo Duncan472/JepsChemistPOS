@@ -1,6 +1,5 @@
 package com.dunwam.jepschemistpos.controllers;
 
-public class StockController package com.dunwam.jepschemistpos.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -52,5 +51,4 @@ public class StockController {
     @FXML
     private ComboBox<?> supplierComboBox;
 
-}{
 }
