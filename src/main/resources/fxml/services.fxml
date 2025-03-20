@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="670.0" prefWidth="1133.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dunwam.jepschemistpos.controllers.ServicesController">
+   <children>
+      <AnchorPane layoutX="128.0" layoutY="154.0" prefHeight="625.0" prefWidth="683.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="450.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <ScrollPane layoutX="95.0" layoutY="170.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-10.0" AnchorPane.topAnchor="0.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="87.0" layoutY="14.0" text="Service History ">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="859.0" layoutY="6.0" text="Record A Service">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="721.0" layoutY="16.0" prefHeight="639.0" prefWidth="398.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="721.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="16.0">
+         <children>
+            <Label layoutX="36.0" layoutY="48.0" text="OPD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="85.0" text="Patients Name">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="126.0" text="Gender">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="167.0" text="Age">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="208.0" text="Residence">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="251.0" text="Contact Info">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="354.0" text="Description">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="155.0" layoutY="475.0" text="Payment Options">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="502.0" text="Cash" />
+            <Label layoutX="30.0" layoutY="552.0" text="Mpesa">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="502.0" text="Ksh" />
+            <Label layoutX="360.0" layoutY="552.0" text="Ksh" />
+            <Button layoutX="112.0" layoutY="582.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="253.0" text="Save" textFill="#ba234e">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <TextArea layoutX="110.0" layoutY="354.0" prefHeight="121.0" prefWidth="269.0" promptText="Diagnosed and Treated ,,,,," />
+            <TextArea layoutX="110.0" layoutY="243.0" prefHeight="99.0" prefWidth="269.0" promptText="Patient's Contact Info" />
+            <TextField layoutX="110.0" layoutY="498.0" prefHeight="25.0" prefWidth="243.0" promptText="0.00" />
+            <TextField layoutX="110.0" layoutY="548.0" prefHeight="25.0" prefWidth="243.0" promptText="200" />
+            <TextField layoutX="110.0" layoutY="81.0" prefHeight="25.0" prefWidth="269.0" promptText="Duncan Maina" />
+            <RadioButton layoutX="112.0" layoutY="126.0" mnemonicParsing="false" text="Male" />
+            <RadioButton layoutX="247.0" layoutY="126.0" mnemonicParsing="false" text="Female" />
+            <Spinner layoutX="112.0" layoutY="172.0" prefHeight="25.0" prefWidth="269.0" />
+            <TextField layoutX="110.0" layoutY="204.0" prefHeight="25.0" prefWidth="269.0" promptText="Please Input Residence" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
