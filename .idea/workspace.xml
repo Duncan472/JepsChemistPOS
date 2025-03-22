@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c98ae4-1ae1-40d8-8c08-2b8302ac23e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/todo.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/ServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/ServicesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/services.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/services.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Desktop/IdeaProjects/JepsChemistPOS/src/main/resources/images",
+    "last_opened_file_path": "C:/Users/ADMIN/AppData/Local/SceneBuilder/SceneBuilder.exe",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
