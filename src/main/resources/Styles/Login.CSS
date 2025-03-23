@@ -39,4 +39,5 @@
 }
 #AnchorPaneImage{
     -fx-padding:20;
+    -fx-border-radius:20px;
 }

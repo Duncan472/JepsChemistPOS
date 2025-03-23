@@ -53,7 +53,7 @@
             <DropShadow />
          </effect>
       </Label>
-      <AnchorPane fx:id="AnchorPaneImage" layoutX="2.0" layoutY="173.0" prefHeight="217.0" prefWidth="265.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
+      <AnchorPane fx:id="AnchorPaneImage" layoutX="6.0" layoutY="173.0" prefHeight="229.0" prefWidth="236.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" />
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="88.0" prefHeight="106.0" prefWidth="199.0" text="CHEMIST" textFill="#1506e4">
          <font>
             <Font name="System Bold" size="26.0" />
