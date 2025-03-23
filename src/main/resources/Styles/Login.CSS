@@ -37,3 +37,6 @@
 -fx-background-color:#E56F56;
 -fx-cursor:hand;
 }
+#AnchorPaneImage{
+    -fx-padding:20;
+}

@@ -33,7 +33,7 @@
       </Label>
       <TextField fx:id="todoTitle" layoutX="315.0" layoutY="64.0" prefHeight="25.0" prefWidth="471.0" promptText="To do Title" />
       <TextArea fx:id="todoDescription" layoutX="315.0" layoutY="117.0" prefHeight="200.0" prefWidth="200.0" promptText="Descibe the Todo things including a list of activities" AnchorPane.bottomAnchor="353.0" AnchorPane.leftAnchor="315.0" AnchorPane.rightAnchor="314.0" AnchorPane.topAnchor="117.0" />
-      <Button fx:id="todoCancelButton" layoutX="331.0" layoutY="258.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="180.0" text="Cancel">
+      <Button fx:id="todoCancelButton" layoutX="331.0" layoutY="258.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="180.0" text="Cancel" textFill="#ae1919">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font>
