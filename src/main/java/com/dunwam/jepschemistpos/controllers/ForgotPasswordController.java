@@ -1,13 +1,12 @@
 package com.dunwam.jepschemistpos.controllers;
-
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class ForgotPasswordController {
 
+public class ForgotPasswordController {
     @FXML
     private TextField adminEmailTextfield;
 
@@ -34,5 +33,4 @@ public class ForgotPasswordController {
 
     @FXML
     private Button setNewPasswordButton;
-
 }
