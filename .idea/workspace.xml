@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c98ae4-1ae1-40d8-8c08-2b8302ac23e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/RecieveProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/recieve-products.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/ReportsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/SalesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/reports.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/sales.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
