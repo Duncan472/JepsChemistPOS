@@ -13,6 +13,4 @@ public class NotificationController {
         @FXML
         private TableView<?> outOfStockTableView;
 
-
-
 }

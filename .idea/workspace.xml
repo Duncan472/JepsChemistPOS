@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c98ae4-1ae1-40d8-8c08-2b8302ac23e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/notification.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/RecieveProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/recieve-products.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/NotificationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Maven.JepsChemistPOS [javafx:run].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
