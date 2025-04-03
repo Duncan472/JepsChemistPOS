@@ -1,4 +1,4 @@
-package com.dunwam.jepschemistpos.contollers;
+package com.dunwam.jepschemistpos.controllers;
 
 import com.dunwam.jepschemistpos.utilities.DatabaseConn;
 import javafx.event.ActionEvent;

@@ -7,6 +7,6 @@ module com.dunwam.jepschemistpos {
 
     opens com.dunwam.jepschemistpos to javafx.fxml;
     exports com.dunwam.jepschemistpos;
-    exports com.dunwam.jepschemistpos.contollers;
-    opens com.dunwam.jepschemistpos.contollers to javafx.fxml;
+    exports com.dunwam.jepschemistpos.controllers;
+    opens com.dunwam.jepschemistpos.controllers to javafx.fxml;
 }

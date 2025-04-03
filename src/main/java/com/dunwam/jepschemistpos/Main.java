@@ -19,3 +19,6 @@ public class Main extends Application{
         stage.show();
     }
 }
+//C:\Program Files\Java\javafx-sdk-24
+//--module-path "C:\Program Files\Java\javafx-sdk-24\lib" --add-modules javafx.controls,javafx.fxml
+//--module-path "C:\Program Files\Java\javafx-sdk-21.0.6\lib" --add-modules javafx.controls,javafx.fxml
