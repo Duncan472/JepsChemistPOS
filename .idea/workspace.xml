@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c98ae4-1ae1-40d8-8c08-2b8302ac23e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/RecieveProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/controllers/RecieveProductsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/utilities/DatabaseConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dunwam/jepschemistpos/UTILITIES/DatabaseConn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
