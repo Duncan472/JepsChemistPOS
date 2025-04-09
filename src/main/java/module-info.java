@@ -3,6 +3,9 @@ module com.dunwam.jepschemistpos {
     requires javafx.fxml;
     requires java.sql;
     requires javafx.graphics;
+    requires java.logging;
+    requires org.slf4j;
+    requires javafx.base;
 
 
     opens com.dunwam.jepschemistpos to javafx.fxml;
