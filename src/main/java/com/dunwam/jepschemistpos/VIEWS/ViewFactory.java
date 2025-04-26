@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.util.logging.Logger;
 
 public class ViewFactory {
-    private static final Logger log = LoggerFactory.getLogger(ViewFactory.class);
+    private static final Logger log = (Logger) LoggerFactory.getLogger(ViewFactory.class);
     //initializing the object property and Panes
     private final ObjectProperty dashboardSelectedItem;
     private AnchorPane homeAnchorPane, salesAnchorPane, todoAnchorPane, reportsAnchorPane, settingsAnchorPane, stockAnchorPane, servicesAnchorPane,
@@ -20,7 +20,7 @@ public class ViewFactory {
     public ViewFactory(){this.dashboardSelectedItem = new SimpleObjectProperty();    }
 
     //DASHBOARD SECTION
-    public ObjectProperty<DashboardOptions> getDashboardSelectedItem(){return dashboardSelectedItem; }
+    public <DashboardOptions> ObjectProperty<DashboardOptions> getDashboardSelectedItem(){return dashboardSelectedItem; }
 
     //Getting the dashboard Resources
     public AnchorPane getHomeAnchorPane(){
