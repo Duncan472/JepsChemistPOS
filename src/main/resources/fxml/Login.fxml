@@ -17,12 +17,12 @@
          <Image url="@../images/Pharmacy.jpeg" />
       </ImageView>
       <Label fx:id="ErrorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="141.0" prefHeight="27.0" prefWidth="250.0" textFill="#e51c0b" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
-      <Label alignment="CENTER" layoutX="4.0" layoutY="177.0" prefHeight="25.0" prefWidth="50.0" text="Email" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
+      <Label alignment="CENTER" layoutX="4.0" layoutY="177.0" prefHeight="25.0" prefWidth="50.0" text="Email:" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="4.0" layoutY="221.0" prefHeight="27.0" prefWidth="75.0" text="Password" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
+      <Label alignment="CENTER" layoutX="4.0" layoutY="221.0" prefHeight="27.0" prefWidth="75.0" text="Password:" textFill="#0839eb" AnchorPane.leftAnchor="4.0">
          <font>
             <Font size="18.0" />
          </font>
