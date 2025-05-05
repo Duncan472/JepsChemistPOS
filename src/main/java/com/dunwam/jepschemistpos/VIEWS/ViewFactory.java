@@ -14,26 +14,19 @@ public class ViewFactory {
     //initializing the object property and Panes
     private final ObjectProperty dashboardSelectedItem;
     private AnchorPane homeAnchorPane, salesAnchorPane, todoAnchorPane, reportsAnchorPane, settingsAnchorPane, stockAnchorPane, servicesAnchorPane,
-            helpAnchorPane,notificationAnchorPane;
+            helpAnchorPane, notificationAnchorPane;
 
     //Constructor
-    public ViewFactory(){this.dashboardSelectedItem = new SimpleObjectProperty();    }
+    public ViewFactory() {
+        this.dashboardSelectedItem = new SimpleObjectProperty();
+    }
 
     //DASHBOARD SECTION
-    public <DashboardOptions> ObjectProperty<DashboardOptions> getDashboardSelectedItem(){return dashboardSelectedItem; }
-
-    //Getting the dashboard Resources
-    public AnchorPane getHomeAnchorPane(){
-        if (homeAnchorPane== null){
-            try {
-                homeAnchorPane = new FXMLLoader(getClass().getResource("/FXML/home.fxml")).load();
-            }catch (Exception e){
-                log.error("Error Loading the homeAnchorPane", e);
-            }
-                e.printStackTrace();
-        }
-        return homeAnchorPane;
+    public <DashboardOptions> ObjectProperty<DashboardOptions> getDashboardSelectedItem() {
+        return dashboardSelectedItem;
     }
+}
+
 
 
 
