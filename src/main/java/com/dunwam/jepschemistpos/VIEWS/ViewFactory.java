@@ -26,7 +26,18 @@ public class ViewFactory {
         return dashboardSelectedItem;
     }
 }
-
+//Getting the dashboard Resources
+public AnchorPane getHomeAnchorPane(){
+    if (homeAnchorPane== null){
+        try {
+            homeAnchorPane = new FXMLLoader(getClass().getResource("/FXML/home.fxml")).load();
+        }catch (Exception e){
+            log.error("Error Loading the homeAnchorPane", e);
+        }
+        e.printStackTrace();
+    }
+    return homeAnchorPane;
+}
 
 
 
